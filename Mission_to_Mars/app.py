@@ -1,6 +1,6 @@
 from flask import Flask, render_template, redirect
 from flask_pymongo import PyMongo
-import scrape_mars_a
+import scrape
 
 # 2. Create an app, being sure to pass __name__
 app = Flask(__name__)
